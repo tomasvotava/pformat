@@ -25,7 +25,7 @@
 from setuptools import setup, find_packages
 setup(
 	name="PFormat",
-	version="0.1",
+	version="1.0",
 	packages=find_packages(),
 	scripts=["pformat.py"],
 	author="Tomas Votava",

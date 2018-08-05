@@ -26,6 +26,7 @@ import sys
 
 """
 PrettyFormat printer.
+1.0
 Available for tty(s) only.
 """
 
