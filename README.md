@@ -10,21 +10,21 @@ pprint("Every pprint command ends with default reset, so this a default text.")
 ```
 
 ## Available codes
-| Code    | Meaning          |
-|---------|------------------|
-| -       | reset everything |
-| bold    | *bold text*      |
-| dim     | dimmed text      |
-| normal  | normal text      |
-| black   | black text       |
-| red     | red text         |
-| green   | green text       |
-| yellow  | yellow text      |
-| blue    | blue text        |
-| magenta | magenta text     |
-| cyan    | cyan text        |
-| white   | white text       |
-| bblack  | black background |
-| bred    | red background   |
-| bgreen  | green background |
-| bwhite  | white background |
+| Code    | Meaning                                                  |
+|---------|----------------------------------------------------------|
+| -       | reset everything                                         |
+| bold    | **bold text**                                            |
+| dim     | <span style="color: gray;">dimmed text</span>            |
+| normal  | normal text                                              |
+| black   | <span style="color: black;">black text</span>            |
+| red     | <span style="color: red;">red text</span>                |
+| green   | <span style="color: green;">green text</span>            |
+| yellow  | <span style="color: yellow;">yellow text</span>          |
+| blue    | <span style="color: blue;">blue text</span>              |
+| magenta | <span style="color: magenta;">magenta text</span>        |
+| cyan    | <span style="color: cyan;">cyan text</span>              |
+| white   | <span style="color: white;">white text</span>            |
+| bblack  | <span style="background: black;">black background</span> |
+| bred    | <span style="background: red;">red background</span>     |
+| bgreen  | <span style="background: green;">green background</span> |
+| bwhite  | <span style="background: white;">white background</span> |
