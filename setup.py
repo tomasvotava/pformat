@@ -26,8 +26,8 @@ from setuptools import setup, find_packages
 setup(
 	name="PFormat",
 	version="1.0",
-	packages=find_packages(),
-	scripts=["pformat.py"],
+	#packages=[],
+	py_modules=["pformat"],
 	author="Tomas Votava",
 	author_email="info@tomasvotava.eu",
 	description="Simple Color Printing for TTYs in Python",
