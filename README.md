@@ -1,6 +1,13 @@
 # PFormat
 Python TTY color formatter.
 
+## Installation
+```bash
+$ git clone https://github.com/tomasvotava/pformat.git
+$ cd pformat
+$ ./setup.py install
+```
+
 ## Usage
 ```python
 from pformat import pprint
