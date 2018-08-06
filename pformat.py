@@ -26,7 +26,7 @@ import sys
 
 """
 PrettyFormat printer.
-1.0
+1.2
 Available for tty(s) only.
 """
 
@@ -66,19 +66,22 @@ def tty_supports_color():
     return True
 
 
-def pformat(string):
+def pformat(string,reset=True):
 	"""
 	Returns string PFormatted.
 	"""
 	for att in PFORMAT_ATTRIBUTES:
 		string = string.replace(":%s:"%att,PFORMAT_ATTRIBUTES[att] if tty_supports_color() else "")
-	return (string+(PFORMAT_ATTRIBUTES["-"] if tty_supports_color() else ""))
+	if (not reset) or (not tty_supports_color()):
+		return (string)
+	else:
+		return (string+(PFORMAT_ATTRIBUTES["-"] if tty_supports_color() else ""))
 
-def pprint(string):
+def pprint(string,end='\n'):
 	"""
 	Prints PFormatted string.
 	"""
-	print(pformat(string))
+	print(pformat(string),end=end)
 
 def pinput(prompt):
 	"""
