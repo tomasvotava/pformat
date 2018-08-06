@@ -1,6 +1,9 @@
 # PFormat
 Python TTY color formatter.
 
+##Screenshot
+![alt text](https://raw.githubusercontent.com/tomasvotava/pformat/master/screenshot.png Screenshot)
+
 ## Installation
 ```bash
 $ git clone https://github.com/tomasvotava/pformat.git
