@@ -1,7 +1,7 @@
 # PFormat
 Python TTY color formatter.
 
-##Screenshot
+## Screenshot
 
 ![alt text](https://raw.githubusercontent.com/tomasvotava/pformat/master/screenshot.png "Screenshot")
 
