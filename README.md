@@ -2,7 +2,7 @@
 Python TTY color formatter.
 
 ##Screenshot
-![alt text](https://raw.githubusercontent.com/tomasvotava/pformat/master/screenshot.png Screenshot)
+![alt text](https://raw.githubusercontent.com/tomasvotava/pformat/master/screenshot.png "Screenshot")
 
 ## Installation
 ```bash
